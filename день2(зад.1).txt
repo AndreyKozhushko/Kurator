@@ -1,0 +1,16 @@
+import datetime
+def printTimeStamp(name
+ ):
+ print('Овчаренко Іван Кожушко Андрій: ' + name)
+ print('Час компіляції: ' + str(datetime.datetime.now()))
+
+import copy
+a = [1, 2, 3, 2, 4, 5, 1, 3, 5]
+a.remove(2)
+print(a)
+b = copy.copy(a)
+print(b)
+b.pop(0)
+b.pop(2)
+b.pop(3)
+print(b)
